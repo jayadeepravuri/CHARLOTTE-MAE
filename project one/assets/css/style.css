@@ -1,5 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Castoro+Titling&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    border: none;
+
+}
+
 body{
-    font-family: Prompt,Roboto;
+    font-family: 'Castoro', serif;
+    font-weight: 300;
     color:black;
     background-color: antiquewhite;
 }
