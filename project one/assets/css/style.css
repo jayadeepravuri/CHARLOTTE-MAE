@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Castoro+Titling&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Castoro&family=Castoro+Titling&display=swap');
 
 *{
     margin:0;
@@ -8,9 +8,24 @@
 
 }
 
-body{
+body {
     font-family: 'Castoro', serif;
     font-weight: 300;
     color:black;
     background-color: antiquewhite;
 }
+/*headings and logo*/
+
+h1 {
+    font-family:'Castoro Titling', cursive ;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: hsl(45deg 22.81% 88.78%);
+}
+
+#logo{
+    float: left;
+    font-size: 180%;
+    margin-left: 25px;
+     }
