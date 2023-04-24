@@ -89,6 +89,29 @@ h1 {
         opacity: 0.6;
     }
     
+    /*first section */
+#section-one, {
+    height: 600px;
+}
+
+#section-one-img img{
+    padding-top: 10px;
+    width: 50%;
+    height: 590px;
+    object-fit: cover;
+    overflow: hidden;
+    float:left;
+}
+
+#section-one-text{
+   
+    padding-top: 300px;
+    padding-left: 0%;
+    padding-right: 0%;
+    width:50%;
+    float:right;
+    text-align: center;
+}
 
 
     
