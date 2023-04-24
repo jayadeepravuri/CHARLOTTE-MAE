@@ -21,7 +21,7 @@ h1 {
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 10px;
-    color: rgb(99, 96, 87);
+    color: rgb(196, 191, 177);
 }
 
 #logo{
@@ -46,10 +46,10 @@ h1 {
 
     #menu a{
         text-decoration: none;
-        color:hsl(40, 6%, 63%) ;
+        color:hsl(42, 16%, 87%) ;
     }
     #menu a:hover{
-        border-bottom: 1px solid hsl(46, 15%, 17%);
+        border-bottom: 1px solid hsl(44, 8%, 52%);
     }
 
     #main-outer{
@@ -59,7 +59,7 @@ h1 {
     /*main-image and cover text*/
     
     #cover-text, #cover-text h2{
-        color:rgb(41, 40, 38);
+        color:rgb(228, 214, 187);
     }
     
     #main-image {
@@ -69,6 +69,25 @@ h1 {
     background-size: cover;
     }
     
+    #cover-text  {
+        font-size: 130%;
+        font family:'Castoro', serif ;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+        width: 300px;
+        height: 200px;
+    
+        padding-top:40px;
+        padding-left:10px;
+    
+        background-color:black;
+    
+        bottom: 50%;;
+        right: 50%;
+        position: absolute;  
+        opacity: 0.6;
+    }
     
 
 
