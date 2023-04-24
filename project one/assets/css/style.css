@@ -144,4 +144,22 @@ h1 {
     float:right;
 }
 
-    
+#section-three{
+    height: 200px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 100;
+    font-family:'Castoro Titling', cursive;
+}
+
+#section-three-img img{
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    background-size: fit;
+}
