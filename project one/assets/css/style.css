@@ -9,10 +9,10 @@
 }
 
 body {
-    font-family: 'Castoro', serif;
-    font-weight: 300;
+    font-family:'Castoro', serif;
+    font-weight: 3;
     color:black;
-    background-color: antiquewhite;
+    background-color:  rgb(190, 171, 146);
 }
 /*headings and logo*/
 
@@ -21,11 +21,27 @@ h1 {
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 10px;
-    color: hsl(45deg 22.81% 88.78%);
+    color: rgb(99, 96, 87);
 }
 
 #logo{
     float: left;
-    font-size: 180%;
+    font-size: 160%;
     margin-left: 25px;
      }
+
+     #menu{
+        font size: 110%;
+        letter-spacing: 5px;
+    }
+    
+    #menu,#logo{
+        line-height: 75px;
+    }
+    #menu li{
+        float:right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+
+    
