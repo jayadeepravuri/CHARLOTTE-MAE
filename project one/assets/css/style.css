@@ -146,7 +146,7 @@ h1 {
 /*section-three*/
 
 #section-three{
-    height: 200px;
+    height: 300px;
     padding-top: 10px;
     
 }
@@ -154,7 +154,7 @@ h1 {
 #section-three-img img{
     padding-top: 10px;
     width: 50%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     overflow: hidden;
     float:left;
@@ -162,10 +162,13 @@ h1 {
 
 
 #section-three-text{
-    padding-top:100px;
+    padding-top:150px;
     width:50%;
     float:right;
     text-align: center;
     font-style: italic;
     font-family:'Castoro Titling', cursive;
+}
+footer{
+    
 }
