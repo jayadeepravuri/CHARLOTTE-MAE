@@ -12,7 +12,7 @@ body {
     font-family:'Castoro', serif;
     font-weight: 3;
     color:black;
-    background-color:  rgb(190, 171, 146);
+    background-color:  rgb(194, 190, 185);
 }
 /*headings and logo*/
 
@@ -43,5 +43,14 @@ h1 {
         list-style-type: none;
         margin-right: 30px;
     }
+
+    #menu a{
+        text-decoration: none;
+        color:hsl(40, 6%, 63%) ;
+    }
+    #menu a:hover{
+        border-bottom: 1px solid hsl(46, 15%, 17%);
+    }
+
 
     
