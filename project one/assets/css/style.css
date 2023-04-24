@@ -52,5 +52,24 @@ h1 {
         border-bottom: 1px solid hsl(46, 15%, 17%);
     }
 
+    #main-outer{
+        height: 600px;
+        width:100%;
+    }
+    /*main-image and cover text*/
+    
+    #cover-text, #cover-text h2{
+        color:rgb(41, 40, 38);
+    }
+    
+    #main-image {
+        height: 600px;
+        width: 100%;
+        background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
+    background-size: cover;
+    }
+    
+    
+
 
     
