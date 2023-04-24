@@ -112,6 +112,12 @@ h1 {
     float:right;
     text-align: center;
 }
+.heading-txt{
+    font-family: 'Castoro Titling', cursive ;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5rem;
+}
 
 
     
