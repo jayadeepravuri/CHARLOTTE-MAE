@@ -152,7 +152,6 @@ h1 {
 }
 
 #section-three-img img{
-    padding-top: 10px;
     width: 50%;
     height: 300px;
     object-fit: cover;
@@ -170,5 +169,19 @@ h1 {
     font-family:'Castoro Titling', cursive;
 }
 footer{
+    height: 100px;
+    padding-top: 20px;
     
+    background-color: rgb(167, 153, 153);
+
 }
+
+.footer-banner{
+    text-align:center;
+}
+
+.footer-banner > li {
+    display:inline;
+}
+
+
