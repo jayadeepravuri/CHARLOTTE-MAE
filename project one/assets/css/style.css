@@ -168,6 +168,52 @@ h1 {
     font-style: italic;
     font-family:'Castoro Titling', cursive;
 }
+
+#contact-section{
+    height: 600px;
+}
+#contact-form{
+    width:50%;
+    float:right;
+    padding-top:30px;
+    border-radius: 20px;
+}
+
+.form-text{
+    font-family:'Castoro Titling', cursive ;
+    color:black;
+    width: 60%;
+    margin-left: 40px;
+    background-color: rgb(194, 190, 185);
+    border-radius: 40px;
+    padding: 20px;
+
+
+}
+.form-input{
+background: transparent;
+  color: #fafafa;
+  width: 70%;
+  height: 18px;
+  margin: 2px 0 8px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  display: block;
+}
+
+.send-button{
+    margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 100%;
+  background-color:rgba(94, 90, 90, 0.8);
+  color: #fafafa;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+
+}
 footer{
     height: 100px;
     padding-top: 20px;
