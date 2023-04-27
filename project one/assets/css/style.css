@@ -166,12 +166,14 @@ header{
     object-fit: cover;
     overflow: hidden;
     float:left;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding:10px 10px 10px 10px;
 }
 
 #section-one-text{
-   
-    max-width: 100%;
+
+    font-size:120%;
+    max-width:100%;
     padding: 16px 30px 16px 30px;
     display: inline-flex;
     float:right;
@@ -202,7 +204,8 @@ header{
     object-fit: cover;
     overflow: hidden;
     float:left;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding:10px 10px 10px 10px;
     float:right;
 }
 
@@ -215,7 +218,8 @@ header{
     object-fit: cover;
     overflow: hidden;
     float:left;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding:10px 10px 10px 10px;
 }
 
 
@@ -227,9 +231,8 @@ header{
     align-items: center;
 }
 
-
-
 /*contact-section*/
+
 #contact-section{
     height: 800px;
 }
@@ -389,8 +392,33 @@ footer{
         #cover-text > #ctbutton button{
             left: 204px;
         }
+/*mainsection*/
 
+        #section-one, #section-two #section-three{
+            min-height: 500px;
+            width:100%;
+        }
+
+        .main-section-heading{
+            font-size: 400%;
+            padding-top: 8px;
+            margin-bottom: 8px;
+        }
             
+            #section-one-img img{
+    
+                max-width: 70%;
+                object-fit: cover;
+                overflow: hidden;
+                float:left;
+                border-radius: 15px;
+                padding:10px 10px 10px 10px;
+            }
 
-
+            #section-one-text #section-two-text {
+                font-size:180%;
+                max-width: 100%;
+                padding: 32px 60px 32px 60px;
+                position:relative;
+            }
      }
