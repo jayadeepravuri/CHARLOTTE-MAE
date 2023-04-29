@@ -394,7 +394,7 @@ footer{
         min-width: 400px;
         min-height: 120px;
         bottom: 250;
-        right: 465px;
+        right: 427px;
         }
 
         #ctbutton button{
@@ -450,10 +450,188 @@ footer{
 
     #cover-text{
         right:343px;
+        position:absolute;
     }
     #cover-text > #ctbutton button{
         left: 220px;
     }
-        
 
      }
+
+
+     /* For laptop screen sizes */
+@media screen and (max-width: 1024px){
+
+    #main-outer{
+        max-width:100%;
+        max-height: 400px;
+        width:100%;
+        position:relative;
+    }
+
+    #main-image{
+        max-height: 400px;
+        width: 100%;
+        background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
+        background-size: cover;
+    }
+    #logo{
+        font-size: 190%;
+    }
+
+    #menu{
+        font-size: 90%;
+    }
+
+    #cover-text{
+        font-size: 95%;
+        min-width: 410px;
+        min-height: 112px;
+        bottom: 119px;
+        right: 328px;
+
+        letter-spacing: 3px;
+        width: fit-content;
+        height: 117px;
+        }
+
+    #ctbutton button{
+            min-height: 48px;
+            font-size: 143%;
+            padding: 15.2px;
+            max-width: 500px;
+        }
+
+}
+
+     /* For medium screen sizes */
+@media screen and (max-width: 950px) {
+#logo{
+    font-size: 190%;
+}
+
+#menu{
+    font-size:85%;
+    }
+
+    #cover-text{
+    font-size:90%;
+    min-width:369px;
+    min-height:120px;
+    bottom: 117px;
+    right: 300px;
+    }
+
+    #ctbutton button{
+        font-size: 135%;
+        padding: 3.2px;
+        max-width: 480px;
+        min-height: 48px;
+    }
+    #cover-text > #ctbutton button{
+        left:130px;
+    }
+}
+
+/* For tablet screen sizes */
+@media screen and (max-width: 768px) {
+
+    header{
+        height:50px;
+        
+    }
+
+    #logo{
+        font-size: 160%;
+    }
+    
+    #menu{
+        font-size:67%;
+        letter-spacing: 2px;
+        }
+    #main-outer{
+    max-width: 100%;
+    max-height: 313px;
+    width: 100%;
+    position: relative;
+    }
+
+    #main-image {
+        max-height: 313px;
+        width: 100%;
+        background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
+        background-size: cover;
+    }
+    #cover-text{
+        font-size:94%;
+        min-width: 312px;
+        height: 120px;
+        bottom: 70px;
+        right: 215px;
+        }
+    
+    #ctbutton button{
+            font-size: 100%;
+            padding: 3.2px;
+            max-width: 96px;
+            min-height: 39px;
+            
+        }
+    #cover-text > #ctbutton button{
+            left:130px;
+        }
+    
+    .main-section-heading{
+        font-size: 200%;
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 7px;
+        }  
+    .heading-txt{
+        font-family: 'Castoro Titling', cursive;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 18px;
+    }
+    #section-one-text {
+         padding: 16px 30px 16px 3px;
+        
+    }
+    #section-one-text>.heading-txt>p {
+        font-size:19px;
+    }
+    
+    #section-two-text {
+        padding: 16px 30px 16px 3px;
+       
+   }
+
+   #section-two-text>.heading-txt {
+    font-size:17px;
+   }
+
+   #section-two-text>.heading-txt>p {
+    font-size:17px;
+   }
+
+   #section-three-text {
+    padding: 16px 30px 16px 9px;  
+}
+footer{
+    height:48px;
+    padding-top: 0px;
+}
+#footer-logo {
+    font-size:22px;
+    margin:8px;
+}
+.footer-icons{
+    font-size: 11px;
+}
+}
+/* For mobile screen sizes */
+@media screen and (max-width: 600px){
+    
+}
+
