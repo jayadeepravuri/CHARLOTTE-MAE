@@ -632,6 +632,125 @@ footer{
 }
 /* For mobile screen sizes */
 @media screen and (max-width: 600px){
+   
+    header{
+        height:90px;
+    display: inline-flex;
+   justify-content: flex-start;
+   flex-direction: column;
+
+    }
+
+    #logo {
+        font-size: 190%;
+        margin-left: 170px;
+
+    }
+    #menu {
+        font-size: 64%;
+        letter-spacing: 2px;
+        margin: 10px;
+        margin-right: 124px;
+    }
     
+    #main-outer{
+    max-width: 100%;
+    max-height: 330px;
+    width: 100%;
+    position: relative;
+    }
+
+    #main-image {
+        max-height: 330px;
+        width: 100%;
+        background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
+        background-size: cover;
+    }
+    #cover-text{
+        font-size:65%;
+        min-width: 30%;
+        max-height: 120px;
+        bottom: 48px;
+        right: 146px;
+        }
+    
+    #ctbutton button{
+        font-size: 113%;
+        padding: 14.2px;
+        max-width: 104px;
+        height: 16px;
+    }
+            
+        
+    #cover-text > #ctbutton button{
+            left:88px;
+        }
+    .main-section-wrapper{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+  
+
+    .main-section-heading{
+        font-size: 195%;
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 7px;
+        }  
+        
+    .main-section-wrapper > #section-one-img img{
+            padding-left: 97px;
+            border-radius: 0px;
+    
+        }
+    #section-one-text {
+        padding: 16px 30px 16px 54px;
+         text-align: center;
+
+    }
+    
+    #section-one-text>.heading-txt>p {
+        font-size:16px;
+    }
+    
+    #section-two>.main-section-wrapper{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    #section-two-text {
+        padding: 16px 54px 16px 30px;
+        text-align: center;
+       
+   }
+   #section-two-text>.heading-txt>p {
+    font-size:16px;
+}
+
+.main-section-wrapper > #section-two-img img{
+    padding-right: 97px;
+    border-radius: 0px;
+
+}
+
+   #section-two-text>.heading-txt>p {
+    font-size:16px;
+   }
+.main-section-wrapper > #section-three-img img{
+    padding-left: 97px;
+    border-radius: 0px;
+
+}
+#section-three-text {
+padding: 16px 30px 16px 54px;
+ text-align: center;
+
+}
+
+#section-three-text>.heading-txt>p {
+font-size:16px;
+}
 }
 
