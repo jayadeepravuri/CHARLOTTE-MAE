@@ -23,7 +23,7 @@ body {
     font-family:'Castoro', serif;
     font-weight: 3;
     color:black;
-    background-color: rgb(70, 70, 70);
+    background-color:rgb(238, 231, 223);
 }
 
 p {
@@ -41,7 +41,7 @@ h1 {
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 10px;
-    color: rgb(196, 191, 177);
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
 }
 
@@ -50,7 +50,7 @@ header{
     width:100%;
     position:fixed;
     z-index:999;
-    color:rgb(29, 27, 27)
+    color:rgb(29, 27, 27);
 }
 
 #logo{
@@ -82,10 +82,10 @@ header{
 
 #menu a{
         text-decoration: none;
-        color:hsl(42, 16%, 87%) ;
+        color:rgb(0, 0, 0) ;
     }
 #menu a:hover{
-        border-bottom: 1px solid hsl(44, 8%, 52%);
+        border-bottom: 1px solid rgb(85,107,47);
     }
 
     /*Main image and cover text*/
@@ -99,13 +99,13 @@ header{
     }
     
 #cover-text, #cover-text h2{
-        color:rgb(228, 214, 187);
+        color:beige;
     }
     
 #main-image {
         height: 600px;
         width: 100%;
-        background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
+        background: url(https://images.pexels.com/photos/10569113/pexels-photo-10569113.jpeg) no-repeat center center;
         background-size: cover;
     
     }
@@ -117,7 +117,7 @@ header{
         letter-spacing: 4px;
         width: fit-content;
         height: 150px;
-        background-color:black;
+        background-color:rgb(0,0,0);
         bottom: 200px;
         right:454px;
         position: absolute;  
@@ -161,6 +161,7 @@ header{
     text-align: center;
     padding-top: 8px;
     margin-bottom: 8px;
+    text-decoration: underline;
 }
 
 .main-section-wrapper{
@@ -229,7 +230,7 @@ header{
 
 #section-three-img img{
     max-width: 70%;
-    object-fit: cover;
+    object-fit: fill;
     overflow: hidden;
     float:left;
     border-radius: 30px;
@@ -246,6 +247,59 @@ header{
     position:relative;
     right: 70px;
 }
+
+
+ /*about-section*/
+    
+ #about-section{
+    min-height: 500px;
+    width:100%;
+}
+#about-section-heading{
+    font-size: 250%;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+
+#about-section-wrapper{
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+#about-section-img img{
+    
+    max-width: 70%;
+    object-fit: cover;
+    overflow: hidden;
+    float:left;
+    border-radius: 30px;
+    padding:10px 10px 10px 10px;
+}
+
+#about-section-text{
+
+    font-size:112%;
+    max-width:100%;
+    padding: 16px 30px 16px 1px;
+    display: inline-flex;
+    float:right;
+    text-align: center;
+}
+
+#about-heading-text{
+    font-family: 'Castoro Titling', cursive ;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
 
 /*contact-section*/
 
@@ -298,7 +352,7 @@ header{
     color:black;
     width: 60%;
     margin-left: 40px;
-    background-color: rgb(231, 228, 222);
+    background-color:rgb(238, 231, 223);
     border-radius: 6px;
     padding: 10px;
     text-align:start;
@@ -340,7 +394,7 @@ footer{
  #footer-logo {
         float: left;
         text-transform: uppercase;
-        color: #d0dad4;
+        color:black;
         margin: 1em;
     }
 
@@ -351,63 +405,12 @@ footer{
     }
     .footer-icons i {
         font-size: 250%;
-        color: #d0dad4;
+        color: black;
     }
     
     .footer-icons i:hover {
         color: black;
     }
-    /*about-section*/
-    
-    #about-section{
-        min-height: 500px;
-        width:100%;
-    }
-    #about-section-heading{
-        font-size: 250%;
-        text-transform: capitalize;
-        text-align: center;
-        padding-top: 8px;
-        margin-bottom: 8px;
-    }
-    
-    #about-section-wrapper{
-        max-width: 100%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: space-between;
-        
-    }
-    
-    
-    
-    #about-section-img img{
-        
-        max-width: 70%;
-        object-fit: cover;
-        overflow: hidden;
-        float:left;
-        border-radius: 30px;
-        padding:10px 10px 10px 10px;
-    }
-    
-    #about-section-text{
-    
-        font-size:120%;
-        max-width:100%;
-        padding: 16px 30px 16px 30px;
-        display: inline-flex;
-        float:right;
-        align-items: center;
-    }
-    
-    #about-heading-text{
-        font-family: 'Castoro Titling', cursive ;
-        font-weight: bolder;
-        font-style: italic;
-        font-size: 1.5rem;
-    }
-
 
     /*Media queries*/
      /*for larger screens*/
@@ -422,9 +425,7 @@ footer{
         }
         #main-image{
             min-height: 600px;
-            width: 100%;
-            background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
-            background-size: cover;
+           
 
         }
         #logo{
@@ -544,10 +545,8 @@ footer{
 
     #main-image{
         max-height: 400px;
-        width: 100%;
-        background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
-        background-size: cover;
     }
+    
     #logo{
         font-size: 190%;
     }
@@ -682,9 +681,7 @@ footer{
 
     #main-image {
         max-height: 313px;
-        width: 100%;
-        background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
-        background-size: cover;
+     
     }
     #cover-text{
         font-size:94%;
@@ -800,23 +797,23 @@ footer{
 
     #main-image {
         max-height: 330px;
-        width: 100%;
-        background: url(https://images.pexels.com/photos/7265994/pexels-photo-7265994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
-        background-size: cover;
+        
     }
     #cover-text{
         font-size:65%;
         min-width: 30%;
-        max-height: 120px;
+        min-height: 120px;
         bottom: 48px;
-        right: 141px;
+        right: 101px;
         }
     
     #ctbutton button{
-        font-size: 113%;
-        padding: 14.2px;
-        max-width: 104px;
-        height: 16px;
+    font-size: 118%;
+    padding: 3.2px;
+    max-width: 143px;
+    height: 9px;
+    right: 138px;
+
     }
             
         
@@ -880,15 +877,27 @@ footer{
     border-radius: 0px;
 
 }
+#section-three{
+    height:490px;
+}
 #section-three-text {
 padding: 16px 30px 16px 54px;
  text-align: center;
-
+ right:10px;
 }
 
 #section-three-text>.heading-txt>p {
 font-size:16px;
 }   
+
+#section-three-text>#ctbutton button{
+    font-size: 77%;
+    padding: 14.2px;
+    max-width: 104px;
+    height: 16px;
+    right:144px;
+
+}
    
 /*about-section*/
 #about-section-wrapper{
@@ -938,10 +947,12 @@ font-size:16px;
 #contact-section-text {
     padding: 1px;
     font-size: 75%;
+    text-align:center;
 }
 .form-text{
     margin-left: 100px;
     font-size:10px;
+    
 }
 
 #contact-footer{
@@ -954,6 +965,10 @@ font-size:16px;
 }
 .footer-icons{
     font-size: 8px;
+}
+
+footer{
+    height: 60px;
 }
 
 }
