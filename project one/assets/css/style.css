@@ -157,11 +157,10 @@ header{
 }
 .main-section-heading{
     font-size: 250%;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     padding-top: 8px;
     margin-bottom: 8px;
-    text-decoration: underline;
 }
 
 .main-section-wrapper{
@@ -195,8 +194,7 @@ header{
 }
 
 .heading-txt{
-    font-family: 'Castoro Titling', cursive ;
-    font-weight: bolder;
+    font-family: 'Castoro Titling', cursive;
     font-style: italic;
     font-size: 1.5rem;
 }
@@ -624,7 +622,7 @@ footer{
 }
 }
 
-     /* For medium screen sizes */
+/* For medium screen sizes */
 @media screen and (max-width: 950px) {
 #logo{
     font-size: 190%;
