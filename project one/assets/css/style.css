@@ -133,7 +133,7 @@ header{
         text-transform: uppercase;
         text-align:center;
         border-radius:10px;
-        background-color: #d0dad4;
+        background-color:rgb(167, 153, 153);
         text-decoration: none;
         position:absolute;
         padding: 3.2px;
@@ -240,7 +240,6 @@ header{
     max-width: 100%;
     display: inline-flex;
     float:right;
-    padding: ;
     align-items: center;
     position:relative;
     right: 70px;
