@@ -12,9 +12,9 @@ Visit the deployed website [here](https://)
 
 
 ![Colours used]()
-I wanted to stick to a muted colour palette for this site, utilizing the white background as much as possible.
 
-* The colors chosen for the website are the 3 colors of the flag, green, white and red. Two more shades of green have been used, one lighter and the other with some darker contrast for letters and fills.
+
+* 
 
 ### Users stories
 
