@@ -11,7 +11,7 @@ Visit the deployed website [here](https://)
 ### Color Reference
 
 
-![Colours used]()
+![Colours used](assets/images/charlotte mae.png)
 
 
 * 
