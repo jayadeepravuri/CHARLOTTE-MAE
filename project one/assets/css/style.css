@@ -532,6 +532,8 @@ footer{
 
      }
 
+     /*For normal screens sizes*/
+
 @media screen and (max-width:1249px) and (min-width:1025px) {
 
     #menu{
@@ -1247,7 +1249,7 @@ padding: 16px 30px 16px 54px;
 
 /*contact-section*/
 #contact-section {
-    height: 575px;
+    height: 600px;
 }
 
 #contact-section-heading {
