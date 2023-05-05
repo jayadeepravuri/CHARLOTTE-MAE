@@ -11,10 +11,7 @@ Visit the deployed website [here](https://)
 ### Color Reference
 
 
-![Colours used](assets/images/charlotte mae.png)
-
-
-* 
+![Colours used](https://github.com/jayadeepravuri/project-one/blob/265551bd885ffb8924a7c3d4a266ac98602d5b65/project%20one/assets/images/charlotte%20mae.png)
 
 ### Users stories
 
@@ -110,7 +107,8 @@ Through devices that I have at home/readily available to me, I was able to conti
 
 ### Accesibility
 
-* Lighthouse Devtool from Google Chrome used for testing.
+* Lighthouse Devtool from Google Chrome was used for checking the performance of the website.
+* 
 * Lighthouse testing:
 
  
