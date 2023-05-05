@@ -46,10 +46,9 @@ The crucial objective of the wesbsite is to make its service attractive to the u
 ## Features
 
 * Made it Responsive design for all the pages and for all device sizes.
-* Choose a specific color scheme and display the information in a funneled and clear way for the userprofile .
-* in the home page, It has a navigation menu in the header, a learn more button in the cover text, which leads to about section, the needs of the userprofile, about the service provider and a section that has a button to book for a call, which further leads to contact page.
-* in the about page, it provides further information of the service provider and their approach to the problem.
-* in the contact page, a sign up form is provided, to book for the service .
+* In the home page, It has a navigation menu in the header, a learn more button in the cover text, which leads to about section, the needs of the userprofile, about the service provider and a section that has a button to book for a call, which further leads to contact page.
+* In the about page, it provides further information of the service provider and their approach to the problem.
+* In the contact page, a sign up form is provided, to book for the service .
 * In the footer section, the logo of the website and facebook and google maps icons are provided.
 
 ## Technologies Used
@@ -90,36 +89,24 @@ The crucial objective of the wesbsite is to make its service attractive to the u
 
 
 
-## Testing
+# Testing
+## Code Validation
 
-### Code Validation
+At the completion , I used the following websites to check my code for syntax errors:
+*  HTML - https://validator.w3.org/
+*  CSS - https://jigsaw.w3.org/css-validator/
 
-![Validation landing page](assets/readme-files/validationlandingpage.png)
-
-* Buttons not allowed inside anchors in html, solved removing the button tags.
-* Lack of heading in sections, solved removing section and replacing them with divs
-* Caption tag not allowed, solved changing caption for p elements.
-* Typing error in aria-label, typo fixed.
-
-![Validation landing page 2](assets/readme-files/validationlandingpagesolved.png)
-
-* All problems sorted.
-
-![Validation Recipe page](assets/readme-files/validationrecipepage.png)
-
-* No errors or warnings to show.
-
-![Validation Survey page](assets/readme-files/validationsurvey.png)
-
-* No errors or warnings to show.
-
-![Validation Error page](assets/readme-files/validationerrorpage.png)
-
-* No errors or warnings to show.
-
-![Validation CSS file](assets/readme-files/validationcss.png)
-
-* No errors Found.
+## Further Testing
+### Personal Testing
+Through devices that I have at home/readily available to me, I was able to continuously test on:
+* For larger screens-1444px
+* For large screens- 1250px to 1443px
+* For normal screens- 1249px to 1025px
+* For laptop screens- 1024px to 951px
+* For medium screen - 950px to 769px
+* For tablet screen - 768px to 601px
+* For mobile screen - 600px to 481px
+* For small mobile screen- 480px to 320px
 
 ### Accesibility
 
