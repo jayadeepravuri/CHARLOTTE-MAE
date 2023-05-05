@@ -22,7 +22,7 @@
 body {
     font-family:'Castoro', serif;
     font-weight: 3;
-    color:black;
+    color: rgb(0, 0, 0);
     background-color:rgb(238, 231, 223);
 }
 
@@ -46,11 +46,13 @@ h1 {
 }
 
 header{
-    height: 100px;
+    height: 60px;
     width:100%;
     position:fixed;
     z-index:999;
-    color:rgb(29, 27, 27);
+    color:rgb(0, 0, 0);
+    background-color: rgba(255,255,255,0.4);
+      
 }
 
 #logo{
@@ -125,6 +127,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
 
 #ctbutton button{
@@ -306,7 +309,7 @@ header{
 }
 
 #contact-section-heading{
-    font-size: 364%;
+    font-size: 250%;
     text-transform: capitalize;
     text-align: center;
     padding-top: 8px;
@@ -335,7 +338,7 @@ header{
     font-family: 'Castoro Titling', cursive;
     font-weight: bolder;
     font-style: italic;
-    text-align: justify;
+    text-align:left;
 }
 #contact-form{
     width:50%;
@@ -373,8 +376,8 @@ background: transparent;
   padding: 10px;
   text-align: center;
   font-size: 100%;
-  background-color:rgba(94, 90, 90, 0.8);
-  color: #fafafa;
+  background-color:rgb(167, 153, 153);
+  color:black;
   display: block;
   font-weight: bold;
   text-decoration: none;
@@ -529,9 +532,33 @@ footer{
 
      }
 
+@media screen and (max-width:1249px) and (min-width:1025px) {
+
+    #menu{
+        font-size:100%;
+        }
+
+    #cover-text{
+        right:343px;
+        position:absolute;
+        width:70%;
+        left:15%;
+        letter-spacing: 2px;
+    }
+    #cover-text > #ctbutton button{
+        left: 220px;
+    }
+
+}
+
+     /*320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.*/
 
      /* For laptop screen sizes */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) and (min-width:951px){
 
     #main-outer{
         max-width:100%;
@@ -558,17 +585,29 @@ footer{
         min-height: 112px;
         bottom: 119px;
         right: 328px;
-
         letter-spacing: 3px;
-        width: fit-content;
+        width: 50%;
+        left:25%;
         height: 117px;
         }
 
     #ctbutton button{
             min-height: 48px;
             font-size: 143%;
-            padding: 15.2px;
+            padding: 10px;
             max-width: 500px;
+        }
+
+        #cover-text > #ctbutton button{
+            left:30%;
+        } 
+
+        .main-section-heading {
+            font-size:200%;
+        }
+
+        .heading-txt {
+            font-size:110%;
         }
 
         /*about-section*/
@@ -622,7 +661,7 @@ footer{
 }
 
 /* For medium screen sizes */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) and (min-width:769px) {
 #logo{
     font-size: 190%;
 }
@@ -631,12 +670,17 @@ footer{
     font-size:85%;
     }
 
-    #cover-text{
+#main-outer, #main-image{
+    height:500px;
+    }
+
+#cover-text{
     font-size:90%;
-    min-width:369px;
-    min-height:120px;
-    bottom: 117px;
+    height:120px;
     right: 300px;
+    width: 62%;
+    left:20%;
+    bottom:150px;
     }
 
     #ctbutton button{
@@ -644,17 +688,36 @@ footer{
         padding: 3.2px;
         max-width: 480px;
         min-height: 48px;
+        
     }
     #cover-text > #ctbutton button{
-        left:130px;
+        left:34%;
     }
 
-    
-    
+    .main-section-heading{
+        font-size: 200%;
+    }
+    .heading-txt{
+        font-size:100%;
+    }
+    #about-section{
+       min-height:400px;
+    }
+    #about-heading-text{
+        font-size:85%;
+    }
+
+    .form-text {
+        width: 67%;
+        margin-left: 40px;
+        padding: 1px;
+        
+    }
 }
 
+
 /* For tablet screen sizes */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width:601px){
 
     header{
         height:50px;
@@ -662,7 +725,7 @@ footer{
     }
 
     #logo{
-        font-size: 160%;
+        font-size: 145%;
     }
     
     #menu{
@@ -681,11 +744,12 @@ footer{
      
     }
     #cover-text{
-        font-size:94%;
-        min-width: 312px;
-        height: 120px;
-        bottom: 70px;
+        font-size: 75%;
+        height: 90px;
+        bottom: 30%;
         right: 215px;
+        width:65%;
+        left:20%;
         }
     
     #ctbutton button{
@@ -696,57 +760,79 @@ footer{
             
         }
     #cover-text > #ctbutton button{
-            left:130px;
+            left:40%;
         }
     
     .main-section-heading{
-        font-size: 200%;
+        font-size: 180%;
         text-transform: capitalize;
         text-align: center;
         padding-top: 10px;
         margin-bottom: 7px;
         }  
     .heading-txt{
-        font-family: 'Castoro Titling', cursive;
-        font-weight: bolder;
-        font-style: italic;
-        font-size: 18px;
+        font-size: 15px;
     }
-    #section-one-text {
-         padding: 16px 30px 16px 3px;
         
-    }
+    
     #section-one-text>.heading-txt>p {
-        font-size:19px;
+        font-size:12px;
     }
     
-    #section-two-text {
-        padding: 16px 30px 16px 3px;
-       
-   }
 
    #section-two-text>.heading-txt {
-    font-size:17px;
+    font-size:15px;
    }
 
    #section-two-text>.heading-txt>p {
-    font-size:17px;
+    font-size:12px;
    }
 
    #section-three-text {
     padding: 16px 30px 16px 9px;  
 }
 
+   #section-three-text>.heading-txt {
+    font-size:15px;
+   }
+
+   #section-three-text>.heading-txt>p {
+    font-size:12px;
+   }
+
+   footer {
+    height: 61px;
+   }
+
+   #footer-logo {
+    font-size: 20px;
+    margin: 1em;
+}
+.footer-icons{
+    font-size:15px;
+}
+
 /*about-section*/
   
+#about-section{
+
+}
+
 #about-heading-text{
     font-size:70%;
  }
         
 /*contact-section*/
 
+#contact-section {
+    height: 650px;
+}
 #contact-section-heading {
-    font-size: 260%;
+    font-size: 215%;
+}
+
+#contact-section-text {
+    font-size: 92%;
 }
 #contact-form{
     padding-top:30px;
@@ -754,8 +840,11 @@ footer{
 
 
 .form-text{
-    margin-left: 122px;
-    font-size:13px;
+    margin-left: -22px;
+    font-size:10px;
+    padding:1px;
+    
+
 }
 
 #contact-footer{
