@@ -551,11 +551,7 @@ footer{
 
 }
 
-     /*320px — 480px: Mobile devices.
-481px — 768px: iPads, Tablets.
-769px — 1024px: Small screens, laptops.
-1025px — 1200px: Desktops, large screens.
-1201px and more — Extra large screens, TV.*/
+    
 
      /* For laptop screen sizes */
 @media screen and (max-width: 1024px) and (min-width:951px){
@@ -630,11 +626,6 @@ footer{
     }
 /*contact-section*/
 
-#contact-section-wrapper{
-    display:flex;
-    flex-direction: column;
-
-}
 #contact-form{
     width:100%;
     padding-top:30px;
@@ -652,7 +643,7 @@ footer{
 }
 
 #contact-section-text{
-    padding: 1px;
+    padding: 47px;
     font-size: 100%;
 }
 #contact-footer{
@@ -765,7 +756,6 @@ footer{
     
     .main-section-heading{
         font-size: 180%;
-        text-transform: capitalize;
         text-align: center;
         padding-top: 10px;
         margin-bottom: 7px;
@@ -917,7 +907,6 @@ footer{
 
     .main-section-heading{
         font-size: 158%;
-        text-transform: capitalize;
         text-align: center;
         padding-top: 10px;
         margin-bottom: 7px;
@@ -959,6 +948,7 @@ footer{
     #section-two-text>.heading-txt>p {
     font-size:15px;
 }
+
 
     .main-section-wrapper > #section-two-img img{
     padding-right: 77px;
@@ -1201,7 +1191,7 @@ footer{
 
 }
 #section-three{
-    height:290px;
+    height:350px;
 }
 #section-three-text {
 padding: 16px 30px 16px 54px;
