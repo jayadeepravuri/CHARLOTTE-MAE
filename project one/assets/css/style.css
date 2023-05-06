@@ -69,18 +69,20 @@ header{
         letter-spacing: 5px;
         margin-top: 4.8px;
         text-transform:uppercase;
+        float: right;
     }
     
 #menu #logo{
         line-height: 100px;
     }
 #menu li{
-        float:right;
+        float:left;
         list-style-type: none;
         margin-top:4.8px;
         margin-right: 30px;
         font-size:140%;
         display:inline;
+    list-style-position:inside ;
     }
 
 #menu a{
@@ -107,7 +109,7 @@ header{
 #main-image {
         height: 600px;
         width: 100%;
-        background: url(https://images.pexels.com/photos/10569113/pexels-photo-10569113.jpeg) no-repeat center center;
+        background: url(../images/main.webp) no-repeat center center;
         background-size: cover;
     }
     
@@ -849,18 +851,25 @@ footer{
 
     }
 
+    header a {
+        text-decoration: none;
+    }
+
     #logo {
+        float:unset;
         width:100%;
         font-size: 190%;
-        margin-left: 23%;
+        margin-left: 20%;
 
     }
     #menu {
         width:100%;
         font-size: 64%;
         letter-spacing: 2px;
-        margin-left: -13%;
-        
+        margin-left: 20%;
+    }
+    #menu li{
+        float:none;
     }
     
     #main-outer{
@@ -1075,10 +1084,14 @@ footer{
    flex-direction: column;
 
     }
+    header a {
+        text-decoration: none;
+    }
 
     #logo {
+        float:unset;
         width:100%;
-        font-size: 134%;
+        font-size: 148%;
         margin-left: 18%;
 
     }
@@ -1086,10 +1099,11 @@ footer{
         width:100%;
         font-size: 57%;
         letter-spacing: 1px;
-        margin-left: -5%;
-        
+        margin-left: 18%;   
     }
-    
+    #menu li{
+        float:none
+    }
     #main-outer{
     max-width: 100%;
     max-height: 250px;
