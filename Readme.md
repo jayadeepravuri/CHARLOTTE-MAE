@@ -41,7 +41,7 @@ The images utilized in the website, are choosen in a way that gives a calming fe
 * The image in the about section is again a picture of the service provider(charlotte mae) so the user gets to familarize with her
 
 ### Holistic feel
-The crucial objective of the wesbsite is to make its service attractive to the user profile by addressing relatable needs of the service and show it in a more elegant way by providing only required information in a very soothing and peaceful way through selective colors and pictures.
+The crucial objective of the website is to make its service attractive to the user profile by addressing relatable needs of the service and show it in a more elegant way by providing only required information in a very soothing and peaceful way through selective colors and pictures.
 
 
 
@@ -118,8 +118,7 @@ At the completion , I used the following websites to check my code for syntax er
 ### Accesibility
 
 * Lighthouse Devtool from Google Chrome was used for checking the performance of the website.
-* ![lighthouse](https://github.com/jayadeepravuri/project-one/blob/98274db8b5a9b8b9eb87f11ad746e70c6eb30766/project%20one/assets/images/lighthouse-img.JPG)
-
+ ![lighthouse](https://github.com/jayadeepravuri/project-one/blob/98274db8b5a9b8b9eb87f11ad746e70c6eb30766/project%20one/assets/images/lighthouse-img.JPG)
 * Performance was low due high resolution images.
 * External libraries have lowered the performance
 
