@@ -1,7 +1,7 @@
 # CHARLOTTE MAE
 
 
-charlotte mae's is a service based business , where charlotte mae provides therapy sessions for people dealing with
+Charlotte mae's is a service based business , where, the therapist, charlotte mae provides therapy sessions for people dealing with
 cycle of trauma, confusing emotions and feelings.
 
 Visit the deployed website [here](https://)
@@ -29,11 +29,11 @@ Visit the deployed website [here](https://)
 
 The images utilized in the website, are choosen in a way that gives a calming feeling to the potential user profile. 
 
-* the main opening image consists of a women who is peacefully expressing her feelings through her art in a calm nature setting
-* the image in the first section of the home page shows the contrast from the main picture by conveying disturbance 
-* the image in the second section of the home page is a picture of a smiling saviour(charlotte mae), who provides service to the user profile of the site
-* the image in the third section of the home page visually represents to book a discovery call
-* the image in the about section is again a picture of the service provider(charlotte mae) so the user gets to familarize with her
+* The main opening image consists of a women who is peacefully expressing her feelings through her art in a calm nature setting
+* The image in the first section of the home page shows the contrast from the main picture by conveying disturbance 
+* The image in the second section of the home page is a picture of a smiling saviour(charlotte mae), who provides service to the user profile of the site
+* The image in the third section of the home page visually represents to book a discovery call
+* The image in the about section is again a picture of the service provider(charlotte mae) so the user gets to familarize with her
 
 ### Holistic feel
 The crucial objective of the wesbsite is to make its service attractive to the user profile by addressing relatable needs of the service and show it in a more elegant way by providing only required information in a very soothing and peaceful way through selective colors and pictures.
@@ -47,6 +47,9 @@ The crucial objective of the wesbsite is to make its service attractive to the u
 * In the about page, it provides further information of the service provider and their approach to the problem.
 * In the contact page, a sign up form is provided, to book for the service .
 * In the footer section, the logo of the website and facebook and google maps icons are provided.
+
+## Future Features
+* The form can be made funtional.
 
 ## Technologies Used
 
@@ -108,8 +111,9 @@ Through devices that I have at home/readily available to me, I was able to conti
 ### Accesibility
 
 * Lighthouse Devtool from Google Chrome was used for checking the performance of the website.
-* 
-* Lighthouse testing:
+* ![lighthouse](https://github.com/jayadeepravuri/project-one/blob/40e923cfae87b07ce262be8802561b0dbd45ca47/project%20one/assets/images/lighthouse.JPG)
+
+* Performance was low due high resolution images.
 
  
 
