@@ -6,6 +6,9 @@ cycle of trauma, confusing emotions and feelings.
 
 Visit the deployed website [here](https://)
 
+## Mockup
+![Charlotte Mae mockup image](https://github.com/jayadeepravuri/project-one/blob/bb546708c53764b02047459a74669904a38eaa4a/project%20one/assets/images/responsive%20-img.JPG)
+
 ## User experience
 
 ### Color Reference
