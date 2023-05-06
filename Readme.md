@@ -96,15 +96,15 @@ The crucial objective of the wesbsite is to make its service attractive to the u
 
 
 
-# Testing
-## Code Validation
+## Testing
+### Code Validation
 
 At the completion , I used the following websites to check my code for syntax errors:
 *  HTML - https://validator.w3.org/
 *  CSS - https://jigsaw.w3.org/css-validator/
 
-## Further Testing
-### Personal Testing
+### Further Testing
+#### Personal Testing
  I was able to continuously test on the followinf screen sizes.
 * For larger screens-1444px
 * For large screens- 1250px to 1443px
