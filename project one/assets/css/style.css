@@ -807,7 +807,9 @@ footer{
 
 /*about-section*/
   
-
+#about-section-heading{
+    font-size: 180%;
+  }
 
 #about-heading-text{
     font-size:70%;
@@ -994,9 +996,9 @@ padding: 16px 30px 16px 54px;
     flex-direction: column;
     
 }
+  
 #about-section-heading{
     font-size: 195%;
-    text-transform: capitalize;
     text-align: center;
     padding-top: 10px;
     margin-bottom: 7px;
@@ -1229,15 +1231,14 @@ padding: 16px 30px 16px 54px;
     
 }
 #about-section-heading{
-    font-size: 195%;
-    text-transform: capitalize;
+    font-size: 100%;
     text-align: center;
     padding-top: 10px;
     margin-bottom: 7px;
     }  
     
 #about-section-wrapper > #about-section-img img{
-        padding-left: 118px;
+        padding-left: 62px;
         border-radius: 0px;
 
     }
