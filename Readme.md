@@ -118,9 +118,10 @@ At the completion , I used the following websites to check my code for syntax er
 ### Accesibility
 
 * Lighthouse Devtool from Google Chrome was used for checking the performance of the website.
-* ![lighthouse](https://github.com/jayadeepravuri/project-one/blob/40e923cfae87b07ce262be8802561b0dbd45ca47/project%20one/assets/images/lighthouse.JPG)
+* ![lighthouse](https://github.com/jayadeepravuri/project-one/blob/98274db8b5a9b8b9eb87f11ad746e70c6eb30766/project%20one/assets/images/lighthouse-img.JPG)
 
 * Performance was low due high resolution images.
+* External libraries have lowered the performance
 
  
 
