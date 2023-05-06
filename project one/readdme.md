@@ -11,7 +11,9 @@ Visit the deployed website [here](https://)
 ### Color Reference
 
 
-![Colours used](https://github.com/jayadeepravuri/project-one/blob/265551bd885ffb8924a7c3d4a266ac98602d5b65/project%20one/assets/images/charlotte%20mae.png)
+![Colours used](https://github.com/jayadeepravuri/project-one/blob/a055bbf0c24b3bd72195e03581b898de188a232f/project%20one/assets/images/colorpallete.png)
+
+* Soothing colors wer used to produce a calming feel when the user enters the website.
 
 ### Users stories
 
@@ -58,7 +60,7 @@ The crucial objective of the wesbsite is to make its service attractive to the u
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-### Frameworks, Libraries and Programs Used
+### Libraries and Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
     - Google Fonts was used to import the fonts Castoro Titling and castor to the style.css file.
@@ -86,6 +88,8 @@ The crucial objective of the wesbsite is to make its service attractive to the u
 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
+* [Coolors](https://coolors.co/)
+    - Coolors website was used to create color pallete.
 
 
 
@@ -98,7 +102,7 @@ At the completion , I used the following websites to check my code for syntax er
 
 ## Further Testing
 ### Personal Testing
-Through devices that I have at home/readily available to me, I was able to continuously test on:
+ I was able to continuously test on the followinf screen sizes.
 * For larger screens-1444px
 * For large screens- 1250px to 1443px
 * For normal screens- 1249px to 1025px
