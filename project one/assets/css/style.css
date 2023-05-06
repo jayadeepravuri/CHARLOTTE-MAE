@@ -130,7 +130,7 @@ header{
 
     }
 
-#ctbutton button{
+.ctbutton button{
         font-size: 130%;
         font-family:'Castoro',serif;
         text-transform: uppercase;
@@ -143,11 +143,11 @@ header{
         max-width: 240px;
         min-height: 48px;
     }
-    #cover-text > #ctbutton button{
+    #cover-text > .ctbutton button{
         left: 100px;
     }
 
-#ctbutton button:hover{
+.ctbutton button:hover{
         color:black;
 
     }
@@ -445,13 +445,13 @@ footer{
         right: 427px;
         }
 
-        #ctbutton button{
+        .ctbutton button{
             font-size: 150%;
             padding: 3.2px;
             max-width: 480px;
             min-height: 48px;
         }
-        #cover-text > #ctbutton button{
+        #cover-text > .ctbutton button{
             left: 204px;
         }
 /*mainsection*/
@@ -513,7 +513,7 @@ footer{
         right:343px;
         position:absolute;
     }
-    #cover-text > #ctbutton button{
+    #cover-text > .ctbutton button{
         left: 220px;
     }
 
@@ -547,7 +547,7 @@ footer{
         left:15%;
         letter-spacing: 2px;
     }
-    #cover-text > #ctbutton button{
+    #cover-text > .ctbutton button{
         left: 220px;
     }
 
@@ -589,14 +589,14 @@ footer{
         height: 117px;
         }
 
-    #ctbutton button{
+    .ctbutton button{
             min-height: 48px;
             font-size: 143%;
             padding: 10px;
             max-width: 500px;
         }
 
-        #cover-text > #ctbutton button{
+        #cover-text > .ctbutton button{
             left:30%;
         } 
 
@@ -676,14 +676,14 @@ footer{
     bottom:150px;
     }
 
-    #ctbutton button{
+    .ctbutton button{
         font-size: 135%;
         padding: 3.2px;
         max-width: 480px;
         min-height: 48px;
         
     }
-    #cover-text > #ctbutton button{
+    #cover-text > .ctbutton button{
         left:34%;
     }
 
@@ -745,14 +745,14 @@ footer{
         left:20%;
         }
     
-    #ctbutton button{
+    .ctbutton button{
             font-size: 100%;
             padding: 3.2px;
             max-width: 96px;
             min-height: 39px;
             
         }
-    #cover-text > #ctbutton button{
+    #cover-text > .ctbutton button{
             left:40%;
         }
     
@@ -835,8 +835,6 @@ footer{
     margin-left: -22px;
     font-size:10px;
     padding:1px;
-    
-
 }
 
 #contact-footer{
@@ -887,18 +885,17 @@ footer{
         right: 40px;
      }
     
-    #ctbutton button{
+    .ctbutton button{
     font-size: 118%;
     padding: 3.2px;
     max-width: 143px;
     height: 9px;
     right: 138px;
     position:relative;
-
     }
             
         
-    #cover-text > #ctbutton button{
+    #cover-text > .ctbutton button{
             left:2px;
         }
     .main-section-wrapper{
@@ -976,7 +973,7 @@ padding: 16px 30px 16px 54px;
 }
   
 
-#section-three-text>.heading-txt>#ctbutton button{
+#section-three-text>.heading-txt>.ctbutton button{
     font-size: 58%;
     padding: 14.2px;
     max-width: 104px;
@@ -1115,18 +1112,17 @@ footer{
         right: 30px;
      }
     
-    #ctbutton button{
+    .ctbutton button{
     font-size: 118%;
     padding: 3.2px;
     width: 78px;
     min-height: 9px;
     right: 138px;
     position:relative;
-
     }
             
         
-    #cover-text > #ctbutton button{
+    #cover-text > .ctbutton button{
             left:2px;
         }
     .main-section-wrapper{
@@ -1206,7 +1202,7 @@ padding: 16px 30px 16px 54px;
 }
   
 
-#section-three-text>.heading-txt>#ctbutton button{
+#section-three-text>.heading-txt>.ctbutton button{
     font-size: 37%;
     padding: 14.2px;
     max-width: 104px;
@@ -1296,6 +1292,5 @@ footer{
 .footer-icons{
     font-size: 8px;
 }
-
 
 }
